@@ -23,9 +23,11 @@ body{
 .nav-btn{
     background: linear-gradient(#c89d11, #8d7730) padding-box;
     width: 100px;
-    height: 100px;
+    height: 105px;
     text-align: center;
     border-radius: 10px;
+    font-weight: 700;
+    font-size: large;
 }
 
 .nav-btn-active{
@@ -34,6 +36,8 @@ body{
     text-align: center;
     width: 100px;
     height: 100px;
+    font-weight: 700;
+    font-size: large;
 
     background:
         linear-gradient(#c89d11, #8d7730) padding-box,
