@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "KUD_font";
+    src: url("../font/OZHANDIN.TTF") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: "KUD_font", sans-serif;
+}
+
+.nav-btn-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    background-color: #fdc411;
+    width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.nav-btn{
+    background: linear-gradient(#c89d11, #8d7730) padding-box;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.nav-btn-active{
+    border: 4px solid transparent;
+    border-radius: 10px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+
+    background:
+        linear-gradient(#c89d11, #8d7730) padding-box,
+        linear-gradient(to right, #e43711, #65a141, #0d71c4) border-box;
+}
+
+.nav-btn-img{
+    width: 75px;
+    height: 75px;
+}
