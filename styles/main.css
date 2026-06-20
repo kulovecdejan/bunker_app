@@ -23,11 +23,13 @@ body{
 .nav-btn{
     background: linear-gradient(#c89d11, #8d7730) padding-box;
     width: 100px;
-    height: 105px;
+    height: 95px;
     text-align: center;
     border-radius: 10px;
     font-weight: 700;
-    font-size: large;
+    font-size: 25px;
+    border: #d5a70f 5px solid;
+    box-shadow: 0px 4px;
 }
 
 .nav-btn-active{
@@ -35,16 +37,18 @@ body{
     border-radius: 10px;
     text-align: center;
     width: 100px;
-    height: 100px;
-    font-weight: 700;
-    font-size: large;
+    height: 95px;
+    font-weight: 900;
+    font-size: 25px;
 
     background:
         linear-gradient(#d3aa21, #d1b24c) padding-box,
         linear-gradient(to right, #e43711, #65a141, #0d71c4) border-box;
+
+    transition: all 200ms ease-in-out;
 }
 
 .nav-btn-img{
-    width: 75px;
-    height: 75px;
+    width: 60px;
+    height: 60px;
 }
